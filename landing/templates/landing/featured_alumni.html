@@ -1,0 +1,20 @@
+{% extends "landing/base.html" %}
+{% load static %}
+
+{% block featured %}
+
+<link rel="stylesheet" href="{% static 'landing/featured_alumni.css' %}"> 
+
+<section class="cards">
+    {% for featured_alumnus in featured_alumni %}
+    <article>
+        <img class="article-img" src="{% static "landing/placeholder.png" %}" alt="photo">
+        <h1><b>Name: </b>{{ featured_alumnus.name }}</h1>
+        <h1><b>Works at: </b>{{ featured_alumnus.company }}</h1>
+        <h1><b>Job Title: </b>{{ featured_alumnus.title }}</h1>
+        <h1><b>Contact: </b>{{ featured_alumnus.contact }}</h1>
+    </article>
+    {% endfor %}
+</section>
+
+{% endblock %}

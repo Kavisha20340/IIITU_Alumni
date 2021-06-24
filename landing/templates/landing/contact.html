@@ -1,0 +1,28 @@
+{% extends "landing/base.html" %}
+{% load static %}
+
+{% block contact %}
+
+<link rel="stylesheet" href="{% static 'landing/contact.css' %}"> 
+
+<div class="container p-3">
+    <div class="row">
+      <div class="col-lg text-center">
+        <h2>Our Address</h2>
+        <p id="myp"><b>Indian Institute of Information Technology, Una Himachal Pradesh</b>
+            <br><br><b>Transit Campus-II:</b><br>Vill. Chandpur, Teh. Haroli, Distt. Una Himachal Pradesh 177220
+            <br><br><b>Transit Campus-I:</b><br>National Institute of Technology, Hamirpur, Himachal Pradesh 177005
+            <br>India</p>
+            
+      </div>
+      <div class="col-lg text-center">
+        <h2>Director @IIITU</h2>
+        <p id="myp"><b>Director:</b> Prof. S. Selvakumar
+            <br><b>Email ID: </b>
+            <span class="contact-text gmail"><a href="mailto:director@iiitu.ac.in" title="Send mail">director@iiitu.ac.in</a></span>
+          </p>      
+      </div>
+    </div>
+</div>
+
+{% endblock %}

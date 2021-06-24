@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+#my-container{
+    border:3px outset rgba(0,0,0,0.2);
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0.5em 0 0.5em 0;
+	color: rgb(17, 2, 61);
+	line-height: 30px;
+	font-family: 'Nunito Sans', sans-serif;
+    text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+#myp{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ul.a {
+    list-style-type: square;
+  }
+  

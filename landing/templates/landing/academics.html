@@ -1,0 +1,59 @@
+{% extends "landing/base.html" %}
+{% load static %}
+
+{% block academics %}
+
+<link rel="stylesheet" href="{% static 'landing/academics.css' %}"> 
+
+<div class="container p-3 my-3">
+    <h1 id="myh1">Under-Graduate Programmes</h1>
+    <ul class="a">
+        <li id="ug">B.Tech in Computer Science and Engineering (CSE) - 66 Seats</li>
+        <li id="ug">B.Tech in Electronics and Communication Engineering (ECE) - 66 Seats</li>
+        <li id="ug">B.Tech in Information Technology - 44 Seats</li>
+        
+    </ul>
+</div>
+
+<div class="container p-3 my-3">
+    <h1 id="myh1">Departments</h1>
+</div>
+
+<div class="container p-3 my-3" id="my-container">
+    <h1>School of Computing</h1>
+    <ul class="b">
+        <li id="myp"><b>Vision</b></li>
+        <h3 id="myh3">To provide excellent technical education in computer science and engineering and produce competent engineers and professionals with high ethical values prepared for life long learning.</h3>
+        <li id="myp"><b>Mission</b></li>
+        <h3 id="myh3">- To impart quality and value based education in computer science and engineering to solve real world problems with an inclination towards societal issues and research.<br>
+            - Nurturing the students of today into resolute builders of the future<br>
+            - To produce computer professionals who can face not only the present but also future challenges of I.T. Industry</h3>
+    </ul>
+</div>
+
+<div class="container p-3 my-3" id="my-container">
+    <h1>School of Electronics</h1>
+    <ul class="b">
+        <li id="myp"><b>Vision</b></li>
+        <h3 id="myh3">To provide excellent technical education in electronics engineering and produce future professionals, to prepare student for professional career with continuous learning.</h3>
+        <li id="myp"><b>Mission</b></li>
+        <h3 id="myh3">- To inculcate harmonious and respectful environment.<br>
+            - Develop a culture of group responsibility for mentoring ECE students.<br>
+            - To produce electronics engineers who have a passion to respond to rapidly changing social and economic environment.</h3>
+    </ul>
+</div>
+
+<div class="container p-3 my-3" id="my-container">
+    <h1>School of Basic Sciences</h1>
+    <ul class="b">
+        <li id="myp"><b>Vision</b></li>
+        <h3 id="myh3">To lay sound foundation in basic sciences and prepare the students to learn engineering better.</h3>
+        <li id="myp"><b>Mission</b></li>
+        <h3 id="myh3">- Acquire abilities to evaluate problems using Mathematics.<br>
+            - Provide a platform to keep abreast with current developments in Science.<br>
+            - Imbibe communication skills and inculcate human values.</h3>
+    </ul>
+    
+</div>
+
+{% endblock %}
